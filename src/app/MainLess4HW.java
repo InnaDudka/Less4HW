@@ -18,6 +18,21 @@ public class MainLess4HW {
                 total + dayNum1 + days + is + sum + "\n" +
                 sales + is + divide + finishSymbol);
 
+        finishSymbol = ".";
+        product = "Product No ";
+        int prodNum2 = 2;
+        String lap = ": laptop,";
+        total = "total sales for ";
+        int dayNum2 = 7;
+        is = " is EUR ";
+        sales ="sales by day";
+        double sal = 1498.12;
+        double multiply = dayNum2 * sal;
+
+        System.out.println(product + prodNum2 + lap + "\n" +
+                total + dayNum2 + days + is + multiply+ "\n" +
+                sales + is + sal + finishSymbol);
+
 
 
     }
