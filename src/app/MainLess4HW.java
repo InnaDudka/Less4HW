@@ -44,7 +44,6 @@ public class MainLess4HW {
         days = " day ";
         Double priceNum1 = 243.068;
         int Num2 =10;
-        sum = 12153.41;
         double multiply1 = priceNum1 * Num2;
         double multiply2 = dayNum1 * multiply1;
         System.out.println(product + prodNum1 + smart + "\n" +
