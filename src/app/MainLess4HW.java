@@ -33,6 +33,24 @@ public class MainLess4HW {
                 total + dayNum2 + days + is + multiply+ "\n" +
                 sales + is + sal + finishSymbol);
 
+        finishSymbol = ".";
+        product = "Product No ";
+        prodNum1 = 1;
+        smart = ": smartphone,";
+        total = "total sales for ";
+        dayNum1 = 5;
+        is = " is EUR ";
+        sales ="sales by day";
+        days = " day ";
+        Double priceNum1 = 243.068;
+        int Num2 =10;
+        sum = 12153.41;
+        double multiply1 = priceNum1 * Num2;
+        double multiply2 = dayNum1 * multiply1;
+        System.out.println(product + prodNum1 + smart + "\n" +
+                total + dayNum1 + days + is + multiply2 + "\n" +
+                sales + is + multiply1 + finishSymbol);
+
 
 
     }
